@@ -17,6 +17,7 @@ body {
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 1px solid darkgray;
 }
 /* Kontainer untuk logo */
 .logo-container {
@@ -42,7 +43,7 @@ body {
 }
 
 .menu-navigation a {
-    border: 1px solid black;
+    border: 1px solid rgb(235, 110, 110);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -64,6 +65,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     column-gap: 20px;
+    padding-top: 48px;
 }
 /* untuk membuat teks rata tengah */
 .text-center {
@@ -71,15 +73,21 @@ body {
 }
 
 .main-item {
-    width: 100%;
-    border: 1px solid;
+     /* border: 1px solid; */
     flex: 1;
     min-height: 300px;
 }
 
-.item-right {
-    background-color: #eee;
+.col-right {
+    background-color: #EDF0F4;
     padding: 24px;
+    border-radius: 4px;
+}
+
+.col-left {
+    flex: 30%;
+    padding: 24px;
+
 }
 
 .item-form>input {
