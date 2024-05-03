@@ -62,7 +62,27 @@ h1 {
 }
 
 .main-item {
-    height: 200px;
     width: 100%;
     border: 1px solid;
+    flex: 1;
+    min-height: 300px;
+}
+
+.item-right {
+    background-color: #eee;
+    padding: 24px;
+}
+
+.item-form>input {
+    height: 20px;
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    border: 1px solid darkgrey;
+    padding: 20px;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
