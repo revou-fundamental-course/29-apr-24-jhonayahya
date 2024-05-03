@@ -1,0 +1,77 @@
+h2 {
+    font-size: 38px;
+}
+
+/* header di tengah dengan lebar 1200px */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* Kontainer untuk logo */
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* gambar logo */
+.logo {
+    background-image: url(/assets/logoipsum-330.svg);
+    background-size: contain;
+    height: 32px;
+    width: 180px;
+    /* border: 1px solid black; */
+    background-repeat: no-repeat;
+}
+
+.menu-navigation {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.menu-navigation a {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main {
+    max-width: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* untuk membuat teks rata tengah */
+.text-center {
+    text-align: center;
+}
+
+.two-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left-col {
+    width: 50%;
+}
+
+.right-col {
+    width: 50%;
+}
