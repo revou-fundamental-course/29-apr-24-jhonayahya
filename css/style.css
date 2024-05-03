@@ -2,6 +2,10 @@ h1 {
     font-size: 38px;
 }
 
+body {
+    font-family: Poppins, sans-serif;
+}
+
 /* header di tengah dengan lebar 1200px */
 .nav-container {
     display: flex;
@@ -39,14 +43,19 @@ h1 {
 
 .menu-navigation a {
     border: 1px solid black;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    background-color: white;
+    background-color: rgb(216, 80, 80);
     text-decoration: none;
     text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+.menu-navigation a:hover{
+    background-color: rgb(216, 130, 80);
 }
 
 .main {
