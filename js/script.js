@@ -57,7 +57,7 @@ function initBannerSlider() {
     }
 
     function startAutoSlide() {
-        intervalId = setInterval(changeTitle, 1000);
+        intervalId = setInterval(changeTitle, 7000);
     }
 
     function stopAutoSlide() {
@@ -101,7 +101,7 @@ function showSlides(n) {
 }
 
 
-var slideInterval = setInterval(plusSlides.bind(null, 1), 1500); 
+var slideInterval = setInterval(plusSlides.bind(null, 1), 7000); 
 
 
 function validateForm() {
