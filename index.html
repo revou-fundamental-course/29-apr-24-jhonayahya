@@ -12,19 +12,12 @@
 <!-- Dibuat untuk memenuhi tugas mini course dari Revou -->
 
 <body>
-    <form name="message-form" action="">
-        <input type="text" name="name-input" id="name-input" placeholder="nama Anda">
-        <button id="submit" type="submit">Kirim</button>
-        <p id="error-name">Tidak boleh kosong!</p>
-    </form>
-    <h1>hi this is <span id="name"></span></h1>
     
     
     
     
     <!-- JS di paling bawah -->
-    <script src="/js/index.js"></script>
-
+    
 
 
     <header>
@@ -53,20 +46,74 @@
             <h3 class="text-center">Kepuasan Anda adalah prioritas utama kami.</h3>
         </header>
 
+
+
+        <!-- Konten kolom kiri -->
         <section class="main">
             <div class="main-item col-left">
-                Mulai perjalanan Anda yang menyenangkan bersama kami sebagai pemandu perjalanan Anda.
-            </div>
-            <!-- contact us -->
+                <div class="opening">
+                    <h2><b>JAYA Tour and Travel</b></h2>
+                    <p><i>Kegembiraan dan kenyamanan adalah moto utama kami.</i></p>                                
+                </div>
+                <div class="row1">
+                    <div class="content">
+                    <div class="slideshow-container">
+                        
+                        <div class="mySlides">
+                          <img src="/assets/pexels-belle-co-99483-402028.jpg">
+                        </div>
+                      
+                        <div class="mySlides">
+                          <img src="/assets/pexels-pixabay-208444.jpg">
+                        </div>
+    
+                        <div class="mySlides">
+                            <img src="/assets/pexels-chris-molloy-220084-1308940.jpg">
+                          </div>
+                      
+                        <div class="mySlides">
+                          <img src="/assets/pexels-tomas-malik-793526-4090091.jpg">
+                        </div>
+    
+                        <div class="mySlides">
+                            <img src="/assets/pexels-osho-1046212.jpg">
+                          </div>
+                      
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+           
+
+
+            <!-- contact us kolom kanan -->
             <div class="main-item col-right">
                 <header>
                     <h2>Hubungi Kami</h2>
                     <p>Setelah Anda mengisi formulir ini, tim kami akan segera menghubungi Anda.</p>
                 </header>
+                <form action="#" class="form">
+                    <hr>
+                    <div class="item-form">
+                        <label>Your Name:</label>
+                        <input id="name" placeholder="Enter Your Name" />
+                        <label>Email:</label>
+                        <input id="email" placeholder="someone@mail.com" />
+                        <label>What are you interested in?</label>
+                        <select id="interest">
+                            <option value="select">-- please select --</option>
+                            <option value="vacation">Vacation Package</option> 
+                            <option value="pricing">Pricing</option>
+                            <option value="information">Information</option>
+                        </select>
+                        <button type="button" onclick="validateForm()">Send</button>
+                    </div>
+                </form>
                 <section class="item-form">
-                    <label for="">Nama Anda:</label><input type="textarea" name="" id="">
-                    <label for="">Alamat Email:</label><input type="text" name="" id="">
-                    <label for="">Saya tertarik untuk:</label><input type="text" name="" id="">
+                    
                 </section>
             </div>
         </section>
@@ -87,6 +134,7 @@
     </article>
     
     
-    
+    <script src="/js/script.js"></script>
+   
 </body>
 </html>
